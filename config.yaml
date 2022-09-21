@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: webapi-dimdata-com # unique identifier
-    name: API (asia-southeast1 region)
+    name: Core API (asia-southeast1 region)
     description: 'Core API, Database, and storage.' # default=empty
     url: 'https://webapi.dimdata.com/api/live' # URL to fetch
     method: GET # default=GET
@@ -25,7 +25,7 @@ monitors:
     linkable: false # allows the title to be a link,default=true
     
   - id: searchapi-dimdata-com # unique identifier
-    name: API (asia-southeast1 region)
+    name: Search API (asia-southeast1 region)
     description: 'Search and Indexing API' # default=empty
     url: 'https://searchapi.dimdata.com/api/live' # URL to fetch
     method: GET # default=GET
