@@ -33,6 +33,15 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link,default=true
     
+  - id: olaphapi-dimdata-com # unique identifier
+    name: OLAP API (asia-southeast1 region)
+    description: 'Logs and Reporting API' # default=empty
+    url: 'https://olapapi.dimdata.com/api/live' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link,default=true
+    
   - id: account-dimdata-com # unique identifier
     name: Authorization Server (asia-southeast1 region)
     description: 'Authorization Server and Account API' # default=empty
