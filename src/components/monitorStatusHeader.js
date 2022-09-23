@@ -21,6 +21,9 @@ export default function MonitorStatusHeader({ kvMonitorsLastUpdate }) {
     <div className={`card mb-4 font-semibold ${classes[color]}`}>
       <div className="flex flex-row justify-between items-center">
         <div>{text}</div>
+        <div className="text-xs font-light">
+            Updated a few seconds ago
+          </div>
       </div>
     </div>
   )
